@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: nginx
+        image: jenkins/jenkins
         ports:
-        - containerPort: 80
+        - containerPort: 8080
